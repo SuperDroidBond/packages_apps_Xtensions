@@ -25,6 +25,12 @@
                 android:targetClass="com.android.systemui.tuner.QSHeaderItemsActivity" />
     </Preference>
 
+    <com.xtended.xtensions.preferences.SystemSettingSwitchPreference
+        android:key="qs_quickbar_scroll_enabled"
+        android:title="@string/qqs_scroll_title"
+        android:summary="@string/qqs_scroll_summary"
+        android:defaultValue="false"/>
+
     <com.xtended.xtensions.preferences.CustomSeekBarPreference
         android:key="qs_panel_alpha"
         android:title="@string/qs_panel_alpha_title"
